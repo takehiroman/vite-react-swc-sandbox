@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
-  const handleClink = () => {
+  const handleClick = () => {
     setCount((count) => count + 1);
   };
   return (
@@ -19,7 +19,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={handleClink}>count is {count}</button>
+        <button onClick={handleClick}>count is {count}</button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
